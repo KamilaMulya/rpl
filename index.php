@@ -10,6 +10,7 @@ if (!isset($_SESSION['user'])) {
     exit;
 }
 
+
 $id_user = $_SESSION['user']['id_user'];
 $role = $_SESSION['role'];
 

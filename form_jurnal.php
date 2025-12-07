@@ -2,10 +2,16 @@
 ob_start(); // Memulai output buffering
 session_start(); // Memulai sesi PHP
 
-include_once("koneksi.php");
+// Konfigurasi koneksi database
+$conn = new mysqli("localhost", "root", "", "ejurnalguru");
+
+// Cek koneksi
+if ($conn->connect_error) {
+    die("Koneksi gagal: " . $conn->connect_error);
+}
 
 // Verifikasi peran pengguna
-if (strtolower($_SESSION['role']) != 'guru') {
+if (!isset($_SESSION['role']) || strtolower($_SESSION['role']) != 'guru') {
     header("Location: login.php"); // Alihkan ke halaman login jika bukan guru
     exit;
 }
