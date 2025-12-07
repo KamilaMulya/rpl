@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #f5f5f5;
+  margin: 0;
+
+}
+
+.container {
+  width: 800px;
+  max-width: 100%;
+  margin: 50px auto;
+  display: flex;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form-container img{
+    width: 150px;
+    height: auto;
+     margin-bottom: 0px;
+
+}
+.form-container {
+  width: 50%;
+  padding: 60px 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  /* Vertical center */
+  height: 100vh;            /* Full viewport height */
+  text-align: center;       /* Center text content */
+}
+
+.form-container h1 {
+    margin-top: 5px; 
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-size: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  background: #f1f1f1;
+  box-shadow: 5px 5px 5px #ccc;
+  border-radius: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+button.signin {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  background-color: #f1f1f1;
+  color: #2c3e50;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #ccc;
+  cursor: pointer;
+}
+
+button.signup {
+  padding: 12px 50px;
+  background-color: #cbe1fd;
+  border: none;
+  font-weight: bold;
+  color: #2c3e50;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #bdbdbdec;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.overlay-container {
+  width: 50%;
+  background-color: #b1d1f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  text-align: center;
+  padding: 40px;
+  color: #2c3e50;
+}
+
+.overlay h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.overlay p {
+  font-size: 14px;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.forgot {
+  font-size: 14px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2c3e50;
+}
+

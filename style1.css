@@ -1,0 +1,52 @@
+body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f5f8ff;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #eef3fa;
+            font-size: 18px;
+        }
+        .edit   { 
+            background-color: #ffd43b; 
+            color: black;
+            padding: 6px 12px;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: sans-serif;
+            transition: background-color 0.2s ease;
+         }
+        .hapus  { 
+            background-color: #ff6b6b; 
+            color: white; 
+            padding: 6px 12px;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: sans-serif;
+            transition: background-color 0.2s ease;
+        }
